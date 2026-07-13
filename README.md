@@ -23,7 +23,14 @@ Go to the meshtastic web flasher and flash one of your Pi Picos with the meshtas
 
 ### Step #2
 
-Connect to your meshtastic flashed pi pico via the [meshtastic web ui](https://client.meshtastic.org/messages/broadcast/0). Create a private channel set under primary. I recommend using a 128 to 256 bit password. After doing so, add any other nodes you want to have access to this channel. 
+Connect to your meshtastic flashed pi pico via the [meshtastic web ui](https://client.meshtastic.org/messages/broadcast/0). Create a private channel set under primary. I recommend using a 128 to 256 bit password. After doing so, add any other nodes you want to have access to this channel. After this, got to Settings -> Module Config -> Serial and set the following settings:
+* Enable Serial
+* Recieve Pin = 9
+* Transmit Pin = 8
+* Baudrate = 115200
+* Mode = Testmsg
+
+Save and then exit. 
 
 ### Step #3
 
