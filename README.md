@@ -111,6 +111,8 @@ In the main section, at the bottom of the code, you must change your passphrase.
 
 Using the attatched wiring diagram, wire up your two picos accordingly. Some tinkering may be required in order for your relay module to properly set off the clicker, however, you can find what button legs will set off the clicker by bridging the different button legs until the clicker LED blinks. 
 
+<img width="721" height="791" alt="meshtastic_gate_opener_wiring_diagram drawio" src="https://github.com/user-attachments/assets/ad600823-13f4-4316-85d5-4d740c63f966" />
+
 ### Step #7 
 
 Clean up and Enjoy! If there is a .stl file in this repo, it is a 3D printed case designed to house these components. 
